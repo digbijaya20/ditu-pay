@@ -1,0 +1,22 @@
+{
+  "name": "ditu-pay",
+  "version": "1.0.0",
+  "description": "A simple payment solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digbijaya20/ditu-pay.git"
+  },
+  "keywords": [
+    "payment"
+  ],
+  "author": "Digbijaya Biswal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/digbijaya20/ditu-pay/issues"
+  },
+  "homepage": "https://github.com/digbijaya20/ditu-pay#readme"
+}
