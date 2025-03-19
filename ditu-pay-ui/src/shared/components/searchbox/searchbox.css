@@ -1,0 +1,19 @@
+.search-box {
+  position: relative;
+  width: 70%;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+}
+
+.clear-icon {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
