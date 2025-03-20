@@ -11,8 +11,8 @@ app.get('/login', (req, res) => {
 })
 
 app.put('/updateuser', (req, res) => {
-    res.send('Hello World!');
-})
+    res.send('Hello World!')
+}) 
  
 
 app.listen(port, () => {
