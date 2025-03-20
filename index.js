@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = 3001;
 
 app.post('/signup', (req, res) => {
     res.send('Hello World!');
@@ -11,7 +11,7 @@ app.get('/login', (req, res) => {
 })
 
 app.put('/updateuser', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hello World!');
 }) 
  
 
