@@ -1,6 +1,11 @@
-const express = require('express');
+import express from 'express';
+import connectDB from './db.js'; // Importing the connectDB function
+
+
 const app = express();
 const port = 3001;
+
+connectDB(); // Call the connectDB function
 
 app.post('/signup', (req, res) => {
     res.send('Hello World!');
@@ -14,7 +19,7 @@ app.put('/updateuser', (req, res) => {
     res.send('Hello World!');
 }) 
  
-
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`Example app listening at http://localhost:${PORT}`)
 });
