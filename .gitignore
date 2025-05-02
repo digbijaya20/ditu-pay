@@ -2,8 +2,10 @@
 
 # dependencies
 /node_modules
-ditu-pay-ui/node_modules
-ditu-pay-ui/package-lock.json
+ditu-pay-UI/node_modules
+ditu-pay-UI/package-lock.json
+ditu-pay-BE/node_modules
+ditu-pay-BE/package-lock.json
 /.pnp
 .pnp.js
 
